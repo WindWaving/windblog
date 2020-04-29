@@ -8,6 +8,12 @@
 > Regular user permission: view articles and manage their posted articles.
 > Super user permission: manage all the articles, tags and users(not edit)
 
+- Home Page;
+![](https://s1.ax1x.com/2020/04/29/JTChss.png)
+- Admin:
+![](https://s1.ax1x.com/2020/04/29/JTCXQJ.png)
+- Post Articles:
+![](https://s1.ax1x.com/2020/04/29/JTPCFK.png)
 ### Table of contents
 - [Install](#install)
 - [Code](#code)
@@ -37,13 +43,15 @@ vue-blog/blog/src/
 `pages`----- routers
 `components`----- components for pages
 #### For use
-modify `baseUrl: 'http://localhost:3000/api/'`(koa server default port) in `vue-blog/blog/store/index.js` to your configured address
-#### Main technologies and modules
+modify `baseUrl: 'http://localhost:3000/api/'`(koa server default port) in `vue-blog/blog/store/index.js` to your configured address(`api/ is needed`)
+
+#### Main modules
 - server: koa2
 - database operations: sequelize & mysql2
 - encrypt password: crypto
 - blog: vue
 - state management: vuex
 - UI components: element-ui
+- Article Editor: le-markdown-editor
 - communication: axios
 - session: koa-session & vue-session
