@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="title">
-      <h1>码蜂社博客</h1>
+      <h1>我的博客</h1>
     </div>
     <ul>
       <li>
